@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>BHL</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" media="screen and (max-width: 768px)" href="css/style768px.css">
+	<link rel="stylesheet" media="screen and (max-width: 376px)" href="css/style375px.css">
+	<link rel="stylesheet" href="aos.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">	
+</head>
+<body>
+	<div class="container" role="main">
+		<!-- Header -->
+		<div class="header">
+			<div>
+				<a href="#" class="logo">BHL</a>
+				<ul class="items">
+					<li class="header_items"><a href="#hero_header">Accueil</a></li>
+					<li class="header_items"><a href="#projects">Portfolio</a></li>
+					<li class="header_items"><a href="#about_me">À propos</a></li>
+					<li class="header_items"><a href="#competances">Compétences</a></li>
+					<li class="header_items"><a href="#contact_me">Contact</a></li>
+				</ul>
+				<img src="img/hamburger.svg" alt="hamburger" style="width: 55px; height: 53px;" class="hamburger" id="hamburger">
+			</div>
+		</div>
+		<!-- Hamburger -->
+		<div class="hamburger_menu">
+			<a href="#hero_header" id="accueil" style="grid-row-start: 2 ;">Accueil</a>
+			<a href="#projects" id="portfolio" style="grid-row-start: 3 ;">Portfolio</a>
+			<a href="#about_me" id="aboutme" style="grid-row-start: 4 ;">À propos</a>
+			<a href="#competances" id="competance" style="grid-row-start: 5 ;">Compétences</a>
+			<a href="#contact_me" id="contact" style="grid-row-start: 6 ;">Contact</a>
+		</div>
+		<!-- Hero header -->
+		<div class="hero_header" id="hero_header">
+				<div class="my_name" data-aos="fade-right">
+					<p>👋</p>
+					<div class="mname">
+						<p class="hello">Hello, I'm</p>
+						<p class="ybhl">Youssef Bouhalla</p>
+					</div>
+				</div>
+				<div class="my_desc" data-aos="fade-right">
+					<p>I'm a begginner<br>
+						web develloper.</p>
+				</div>
+				<button type="button" class="btnCV" data-aos="fade-right">Download my CV!</button>
+				<img src="img/ichigo.png" alt="ichigo" class="ichigo" data-aos="fade-left">
+		</div>
+		<!-- My projects -->
+		<div class="project_container" id="projects" data-aos="fade-right">
+			<div class="project_section">
+				<div class="projects_intro">
+					<h1>Projets Réalisés</h1>
+					<p>Here are all the projects 
+						that i made so far over
+						my course as a web 
+						developper, i hope that
+						my works pleases you!</p>
+				</div>
+				<div class="projects">
+					<!--first project-->
+					<div class="project">
+						<img src="img/brainstorm.svg" alt="brainstormer">
+						<h1>Brainstormer</h1>
+						<p>Brainstormer make your
+							life as a student great by
+							helping you organize your
+							time.</p>
+						<button type="button">View project!</button>
+					</div>
+					<!--second project-->
+					<div class="project">
+						<img src="img/goal.svg" alt="aimbot">
+						<h1>Aim Bot</h1>
+						<p>Aim Bot make you reach
+							your goal at a short time
+							by divising and orginazing
+							your tasks.</p>
+						<button type="button">View project!</button>
+					</div>
+					<!--third project-->
+					<div class="project">
+						<img src="img/puzzle.svg" alt="Puzzle">
+						<h1>Puzzle</h1>
+						<p>Puzzle make your
+							life as a student great by
+							helping you organize your
+							time.</p>
+						<button type="button">View project!</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- About me -->
+		<div class="abt_me" id="about_me">
+			<div class="about_me">
+				<img src="img/guts.jpg" alt="profile2" data-aos="fade-right">
+				<h2 data-aos="fade-up">À propos de moi</h2>
+				<p id="prg1" data-aos="fade-up">Hey there, My name is Youssef
+						Bouhalla, and i am a begginner
+						web and mobile developper and
+						a designer , i live in Morocco 
+						exactly in a small town called
+						Youssoufia.</p>
+				<p id="prg2" data-aos="fade-up">My goal is to make beautiful
+						things to help others in their life 💖!</p>
+			</div>
+		</div>
+		<!-- Competances -->
+		<div class="competances" id="competances">
+			<h2>Compétences</h2>
+			<img src="img/arrow.png" alt="arrow">
+			<div class="compts">
+				<div class="competance" data-aos="fade-left">
+					<img src="img/Pourcentage1.png" alt="Pourcentage1">
+					<div>
+						<h1>Mobile Dev</h1>
+						<p>JAVA, FireBase, Dart ...</p>
+					</div>
+				</div>
+				<div class="competance" data-aos="fade-left">
+					<img src="img/Pourcentage2.png" alt="Pourcentage2">
+					<div>
+						<h1>Web Dev</h1>
+						<p>HTML, CSS, JAVA Script, Bootstrap ...</p>
+					</div>
+				</div>
+				<div class="competance" data-aos="fade-left">
+					<img src="img/Pourcentage3.png" alt="Pourcentage3">
+					<div>
+						<h1>Design</h1>
+						<p>Adobe XD, Illustrator, Photoshop ...</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Contact me -->
+		<div id="contact_me">
+			<div class="contact_me">
+				<h2 data-aos="fade-right">Contact me</h2>
+				<div class="email_number" id="email" data-aos="fade-right">
+					<img src="img/mail.svg" alt="mail">
+					<h1>yo.bouhalla@gmail.com</h1>
+					<p>send an email to me!</p>
+				</div>
+				<div class="email_number" id="number" data-aos="fade-right">
+					<img src="img/telephone.svg" alt="phone">
+					<h1>+212656392583</h1>
+					<p>call me!</p>
+				</div>
+				<div class="social_media" data-aos="fade-left">
+					<img src="img/facebook.svg" alt="facebook" id="facebook">
+					<a href="https://www.facebook.com/profile.php?id=100013575014881">Facebook</a>
+					<img src="img/instagram.svg" alt="instagram" id="instagram">
+					<a href="https://www.instagram.com/ussef_bhl/">Instagram</a>
+					<img src="img/twitter.svg" alt="twitter" id="twitter">
+					<a href="https://www.instagram.com/ussef_bhl/">Twitter</a>
+					<img src="img/github.svg" alt="github" id="github">
+					<a href="https://github.com/UssefBhl">Github</a>
+				</div>
+			</div>
+		</div>
+		<!-- footer -->
+		<div class="footer">
+			<div class="logo_social">
+				<a href="#" class="logo" id="ftr_logo">BHL</a>
+				<img src="img/facebook.svg" alt="facebook">
+				<img src="img/instagram.svg" alt="instagram">
+				<img src="img/twitter.svg" alt="twitter">
+				<img src="img/github.svg" alt="github" >
+			</div>
+			<ul class="footer_menu">
+				<li><a href="#hero_header">Acceuil</a></li>
+				<li><a href="#projects">Portfolio</a></li>
+				<li><a href="#about_me">À propos</a></li>
+				<li><a href="#competances">Compétences</a></li>
+				<li><a href="#contact_me">Contact</a></li>
+			</ul>
+			<p id="copyright">
+				©2021 BHL. All rights reserved.
+			</p>
+		</div>
+	</div>
+	<script src="script.js"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+	<script src="aos.js"></script>
+	<script>
+		AOS.init({
+			duration: 1200,
+		});
+	  </script>
+</body>
+</html>

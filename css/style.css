@@ -1,0 +1,487 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #EFF0F3;
+}
+.container {
+    font-family: poppins;
+}
+/*header section*/
+/*-------------------------------------------------------------------------------------------------*/
+.header {
+    display: flex;
+    background-color: rgba(255, 255, 254, .2);
+    backdrop-filter: blur(5px) ;
+    -webkit-backdrop-filter: blur(5px);
+    position: fixed;
+    width: 100vw;
+    height: 10vh;
+    top: 0%;
+    z-index: 2;
+}
+.header > div{
+    display: flex;
+    justify-content: space-between;
+    width: 95vw;
+    margin: auto;
+}
+#hamburger {
+    display: none;
+    cursor: pointer;
+}
+.hamburger_menu {
+    width: 100%;
+    height: 700px;
+    background-color: #FF8E3C;
+    position: fixed;
+    top: -700px;
+    transition: top 0.7s;
+    display: grid;
+    z-index: 1;
+    grid-template-rows: repeat(6,16.66%);
+    border: 4px solid #FFFFFE;
+}
+.hamburger_menu > a {
+    color: #FFFFFE;
+    text-align: center;
+    font-size: 40px;
+    text-decoration: none;
+}
+.hamburger_menu > a:hover{
+    color: #0D0D0D;
+}
+.items {
+    list-style: none;
+    display: flex;
+    width: 65vw;
+    font-size: 2vw;
+    justify-content: space-around;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.items > li > a {
+    text-decoration: none;
+    color: #0D0D0D;
+}
+.logo{
+    font-size: 45px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #0D0D0D;
+}
+.header_items > a:hover {
+    text-decoration: line-through #FF1515;
+}
+/*hero header section*/
+/*-------------------------------------------------------------------------------------------------*/
+.my_name {
+    border-radius: 35px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFFFFE;
+    padding: 1.3vw;
+    width: 32.36vw;
+    height: 13.54vw;
+    border-bottom: solid 10px #E1E1E1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    grid-area: 1/2/2/4;
+    margin-top: auto;
+    
+}
+.my_name > p {
+    font-size: 7.8vw;
+}
+.mname > p {
+    font-size: 2.2vw;
+}
+.hello {
+    color:#606060;
+}
+.ybhl {
+    color:#0D0D0D;
+    font-weight: 600;
+}
+.my_desc {
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    background-color: #FFFFFE;
+    padding: 1.3vw;
+    width: 27.92vw;
+    height: 11.67vw;
+    border-bottom: solid 10px #E1E1E1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    grid-area: 2/3/3/5;
+    margin-top: auto;
+}
+.my_desc > p{
+    font-weight: 600;
+    font-size: 2.2vw;
+    height: fit-content;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.mname {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.btnCV{
+    width: 33.1vw;
+    height: 5.3vw;
+    background-color: #FF8E3C;
+    outline: 0;
+    color: #0D0D0D;
+    font-size: 2.2vw;
+    font-weight: 600;
+    border-style: none;
+    border-radius: 22px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    grid-area: 3/2/4/4;
+    margin-top: auto;
+}
+.hero_header{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    margin: auto;
+    margin-top: 10vh;
+    padding-bottom: 5vh;
+    grid-template-columns: 10% 12% 20% 10% 40%;
+    grid-template-rows: 40% 30% 20%;
+    grid-row-gap: 5%;
+    grid-column-gap: 2%;
+}
+.ichigo {
+    width: 36.74vw;
+    height: 50.28vw;
+    grid-area: 1/5/4/6;
+    margin-left: auto;
+}
+/*projects section*/
+/*-------------------------------------------------------------------------------------------------*/
+.project > img {
+    width: 9.45vw;
+    height: 10.25vw;
+    margin: auto;
+}
+.projects_intro > h1{
+    font-size: 3.34vw;
+    height: fit-content;
+    width: 100%;
+    margin: auto;
+    color: #0D0D0D;
+    font-weight: 700;
+}
+.projects_intro > p{
+    font-size: 2.86vw;
+    width: 36.28vw;
+    color: #2A2A2A;
+}
+.project{
+    display: grid;
+    justify-content: space-around;
+    margin: auto;
+    width: 100%;
+    height: 46.53vw;
+    border-radius: 44px;
+    padding: 2.1vw;
+    background-color: #FFFFFE;
+}
+.project > h1 {
+    font-size: 3.37vw;
+    font-weight: 600;
+    text-align: center;
+    height: fit-content;
+    color: #0D0D0D;
+}
+.project > p {
+    font-size: 2.49vw;
+    color: #2A2A2A;
+}
+.project > button {
+    border-radius: 23px;
+    border-style: none;
+    background-color: #FF8E3C;
+    width: 100%;
+    color: #FFFFFE;
+    font-size: 2.34vw;
+    font-weight: 500;
+    height: 5.86vw;
+    margin: auto;
+}
+.projects {
+    display: grid;
+    grid-row-gap: 26px;
+    overflow: scroll;
+    height: 100%;
+    width: 40vw;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.projects::-webkit-scrollbar {
+    display: none;
+  }
+.projects_intro {
+    display: grid;
+    grid-row-gap: 5%;
+    width: 50vw;
+    padding: 4.35vw;
+}
+.project_container{
+    height: 100vh;
+    padding-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.project_section{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 57px;
+    margin: auto;
+    width: 90vw;
+    height: 100%;
+    padding: 2.1vw;
+    background-color: #FF8E3C;
+}
+/*about me section*/
+/*-------------------------------------------------------------------------------------------------*/
+.abt_me{
+    height: 100vh;
+    padding-top: 10vh;
+}
+.about_me {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: 20% 50% 30%;
+    width: 90vw;
+    height: 100%;
+    margin: auto;
+}
+.about_me > img {
+    grid-row: 1/4;
+    width: 37.5vw;
+    height: 37.5vw;
+}
+.about_me > h2 {
+    font-size: 4.03vw;
+    font-weight: 700;
+}
+.about_me > p {
+    font-size: 2.57vw;
+    margin-top: 30px;
+}
+/*Competances section*/
+/*-------------------------------------------------------------------------------------------------*/
+.competances > img {
+    width: 100%;
+    height: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.competances > h2 {
+    font-size: 4.03vw;
+    font-weight: 700;
+    margin-left: 6.94vw;
+    text-align: center;
+    z-index: -1;
+    writing-mode: vertical-rl;
+    transform: scaleX(-1) scaleY(-1);
+}
+.competances{
+    display: grid;
+    grid-template-columns: 10vw 22vw 68vw;
+    grid-template-rows: 700px;
+    height: fit-content;
+    padding-top: 10vh;
+}
+.competance {
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFFFFE;
+    border: solid 4px #0D0D0D;
+    border-radius: 39px;
+    width: 59.17vw;
+    height: 70%;
+    padding: 1.39vw;
+    margin: auto;
+}
+.competance > img{
+    width: 7.5vw;
+    height: 7.5vw;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.competance > div > h1 {
+    font-size: 2.43vw;
+    height: fit-content;
+    width: 100%;
+    font-weight: 600;
+    margin: auto;
+    color: #0D0D0D;
+}
+.competance > div > p {
+    font-size: 1.94vw;
+    height: fit-content;
+    width: 100%;
+    margin: auto;
+    color: #606060;
+}
+.competance > div{
+    display: grid;
+    grid-row-gap: 10px;
+    align-items: center;
+    width: 43.06vw;
+    height: 100%;
+}
+.compts {
+    display: grid;
+    width: 59.17vw;
+    height: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+/*contact me section*/
+/*-------------------------------------------------------------------------------------------------*/
+#contact_me{
+    padding-top: 10vh;
+    height: fit-content;
+    width: 100vw;
+}
+.contact_me {
+    display: grid;
+    grid-template-columns: 45% 40%;
+    grid-template-rows: 16% 36% 36%;
+    grid-column-gap: 15%;
+    grid-row-gap: 6%;
+    padding: 4.17vw;
+    height: 47.8vw;
+    width: 90vw;
+    background-color: #FF8E3C;
+    border-radius: 57px;
+    margin: auto;
+}
+.email_number > h1 , .social_media > p {
+    font-size: 2.8vw;
+    font-weight: 500;
+    height: fit-content;
+}
+.email_number > p {
+    font-size: 2.01vw;
+    height: fit-content;
+    color: #EFF0F3;
+}
+.social_media {
+    grid-area: 2/2/4/3;
+    display: grid;
+    grid-template-columns: 18% 80%;
+    grid-template-rows: repeat(4, 20%);
+    grid-row-gap: 6.7%;
+    grid-column-gap: 2%;
+}
+.social_media > a{
+    font-size: 3.1vw;
+    font-weight: 500;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-decoration: none;
+    color: #0D0D0D;
+}
+.social_media > a:hover{
+    color: #EFF0F3;
+}
+.social_media > img {
+    margin: auto;
+}
+.email_number{
+    display: grid;
+    grid-template-columns: 24% 74%;
+    grid-template-rows: repeat(2, 48%);
+    grid-column-gap: 2%;
+    grid-row-gap: 4%;
+}
+#email {
+    grid-area: 3/1/4/2;
+}
+#number {
+    grid-area: 2/1/3/2;
+}
+.email_number > img {
+    width: 6.25vw;
+    height: 6.25vw;
+    grid-row: 1/3;
+    margin-bottom: auto;
+}
+.contact_me > h2 {
+    font-size: 4.03vw;
+    font-weight: 700;
+}
+#facebook {
+    height: 5.14vw;
+    width: 5.14vw;
+}
+#instagram {
+    height: 5.14vw;
+    width: 5.14vw;
+}
+#twitter {
+    height: 5.14vw;
+    width: 6.32vw;
+}
+#github{
+    height: 5.6vw;
+    width: 5.76vw;
+}
+/*footer section*/
+/*-------------------------------------------------------------------------------------------------*/
+.footer {
+    width: 100vw;
+    margin-top: 150px;
+    background-color: #FF8E3C;
+    height: 435px;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 85% 15%;
+    padding: 40px;
+}
+.logo_social {
+    display: grid;
+    grid-template-columns: repeat(4,5em);
+    grid-template-rows: repeat(2,5em);
+}
+#ftr_logo {
+    grid-column: 1/5;
+    margin: 0%;
+}
+.footer_menu {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    grid-row: 1/3;
+    grid-column: 2/3;
+}
+.footer_menu > li > a {
+    font-size: 32px;
+    text-decoration: none;
+    color: #0D0D0D;
+}
+.footer_menu > li > a:hover {
+    text-decoration: line-through #FF1515;
+    color: #EFF0F3;
+}
+#copyright{
+    font-size: 21px;
+    font-weight: 700;
+}
+@media screen and (min-width: 769px){
+    body{
+        background-image: url('../img/background.png');
+        background-size: 130vh;
+        background-repeat: no-repeat;
+    }
+}

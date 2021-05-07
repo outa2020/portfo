@@ -1,0 +1,246 @@
+body{
+    background-size: 375px;
+}
+/*header mobile responsive section*/
+/*-------------------------------------------------------------------------------------------------*/
+.header {
+    height: 65px;
+    width: 100%;
+}
+.logo {
+    font-size: 44px;
+}
+.hamburger_menu {
+    width: 100%;
+}
+/*hero-header mobile responsive section*/
+/*-------------------------------------------------------------------------------------------------*/
+.my_name {
+    width: 273px;
+    height: 118px;
+}
+.my_name > p {
+    font-size: 66px;
+}
+.mname >.ybhl{
+    font-size: 18px;
+}
+.mname > p {
+    font-size: 20px;
+}
+.my_desc {
+    width: 237px;
+    height: 107px;
+    grid-area: 2/3/3/5;
+}
+.my_desc > p{
+    font-size: 20px;
+}
+.ichigo {
+    margin: 0;
+    width: 202px;
+    height: 276px;
+    margin-top: auto;
+    grid-area: 3/3/4/5;
+}
+.btnCV{
+    width: 280px;
+    height: 45px;
+    font-size: 17px;
+}
+.hero_header{
+    display: grid;
+    grid-template-columns: 8% 22% 70%;
+    grid-template-rows: 20% 10% 54% 10%;
+    grid-row-gap: 2%;
+    grid-column-gap: 0;
+    height: 650px;
+}
+/*projects mobile responsive section*/
+/*-------------------------------------------------------------------------------------------------*/
+.project_container{
+    height: fit-content;
+}
+.project_section{
+    width: 90%;
+    height: 450px;
+    padding: 15px;
+}
+.projects_intro > h1{
+    font-size: 22px;
+}
+.projects_intro > p{
+    font-size: 13px;
+    margin-top: 10px;
+}
+.projects_intro{
+    padding: 10px;
+}
+.project{
+    width: 291px;
+    height: 300px;
+    padding: 10px;
+}
+.projects{
+    grid-template-columns: 100%;
+    width: 100%;
+}
+.project > img {
+    width: 70px;
+    height: 81px;
+    margin: auto;
+}
+.project > h1 {
+    font-size: 18px;
+}
+.project > p {
+    font-size: 12px;
+    text-align: center;
+}
+.project > button {
+    font-size: 16px;
+    height: 41px;
+}
+/*about me mobile responsive section*/
+/*-------------------------------------------------------------------------------------------------*/
+.about_me {
+    display: grid;
+    grid-template-columns: repeat(2, 47%);
+    grid-template-rows: 5vh 32vh 20vh 10vh;
+    grid-column-gap: 6%;
+    width: 90%;
+    height:100%;
+    margin: auto;
+}
+.about_me > img {
+    width: 208px;
+    height: 208px;
+}
+.about_me > h2 {
+    font-size: 22px;
+}
+.about_me > p {
+    font-size: 17px;
+}
+.abt_me{
+    height: fit-content;
+}
+/*competances mobile responsive section*/
+/*-------------------------------------------------------------------------------------------------*/
+.competances > h2 {
+    font-size: 22px;
+}
+.competance > img{
+    width: 50px;
+    height: 50px;
+}
+.competance > div > h1 {
+    font-size: 16px;
+}
+.competance > div > p {
+    font-size: 12px;
+}
+.competance {
+    width: 308px;
+    height: 72px;
+    padding: 10px;
+    margin: auto;
+}
+.compts {
+    height: 100%;
+    margin-top: 0;
+    grid-row-gap: 10px;
+}
+.competances{
+    height: 400px;
+    grid-row-gap: 20px;
+}
+/*contact me mobile responsive section*/
+/*-------------------------------------------------------------------------------------------------*/
+.contact_me {
+    grid-template-columns: 100%;
+    grid-template-rows: 15% 25% 25% 25%;
+    grid-row-gap: 0%;
+    padding: 20px;
+    height: 300px;
+    width: 90%;
+}
+.email_number > img {
+    height: 40px;
+    width: 40px;
+    margin-left: auto;
+}
+.social_media > a{
+    display: none;
+}
+.email_number > h1  {
+    font-size: 15px;
+}
+.email_number > p {
+    font-size: 12px;
+}
+.social_media > p{
+    font-size: 10px;
+}
+.contact_me > h2 {
+    font-size: 22px;
+    grid-row: 1/2;
+    text-align: center;
+}
+#email{
+    grid-row: 2/3;
+}
+#number{
+    grid-row: 3/4;
+}.social_media {
+    grid-area: 4/1/5/2;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: 100%;
+    grid-row-gap: 0;
+    grid-column-gap: 0;
+    margin-top: 0;
+}
+#facebook,#twitter,#github,#instagram {
+    margin: auto;
+}
+.email_number{
+    display: grid;
+    grid-template-columns: 23% 72%;
+    grid-template-rows: repeat(2, 50%);
+    grid-column-gap: 5%;
+    grid-row-gap: 0;
+    height: fit-content;
+}
+/*footer mobile responsive section*/
+/*-------------------------------------------------------------------------------------------------*/
+.footer {
+    height: 407px;
+    grid-template-columns: 100%;
+    grid-template-rows: 30% 60% 10%;
+    padding: 10px;
+}
+.footer_menu {
+    grid-row: 2/3;
+    grid-column: 1/2;
+    height: 90%;
+}
+#copyright{
+    grid-row: 3/4;
+    font-size: 15px;
+}
+#ftr_logo {
+    font-size: 45px;
+}
+.logo_social > img {
+    height: 31px;
+    width: 31px;
+}
+.logo_social {
+    grid-template-columns: repeat(4,3em);
+    grid-template-rows: repeat(2,3em);
+    grid-row-gap: 1em;
+}
+.footer_menu > li > a {
+    font-size: 20px;
+}
